@@ -2,7 +2,7 @@ package main;
 
 public class GerenciaFiliais {
 
-    private GerenciaFiliais() {};
+    private GerenciaFiliais() {}
     private static main.GerenciaFiliais instance = new main.GerenciaFiliais();
     public static main.GerenciaFiliais getInstance() {
         return instance;
